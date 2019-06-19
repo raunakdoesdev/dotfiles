@@ -16,3 +16,6 @@ set lazyredraw
 set showmatch
 set nobackup
 :autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
+vnoremap < <gv
+vnoremap > >gv
+set background=dark
